@@ -1,0 +1,29 @@
+.contenedor {
+    display: flex;
+    justify-content: justify; 
+    height: 100vh; 
+    max-width: 70%;
+    margin-left: 10%;
+  }
+  
+  .contenido {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .texto {
+    text-align: center;
+  }
+  
+  .imagen-container {
+    margin-left: 10%;
+    margin-top: 20px; 
+    width: 100%;
+  }
+  
+  .imagen {
+    max-width: 100%;
+    height: auto;
+  }
+  
