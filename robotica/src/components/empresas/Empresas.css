@@ -1,7 +1,7 @@
 h1 {
-    margin-bottom: 20px; /* Espacio inferior para separar el título de la lista */
-    font-size: 24px; /* Tamaño de fuente para el título */
-    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    text-align: center; 
   }
   
   ul {
@@ -22,7 +22,7 @@ h1 {
   }
   
   .logo {
-    width: 10%; 
+    width: 150px; 
     height: auto;
     margin-right: 10px; 
   }

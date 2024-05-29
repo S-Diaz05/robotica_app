@@ -1,32 +1,40 @@
 .banner-container {
-    width: 100%;
-    margin-bottom: 1%;
-/*color ff34d4*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
+
+.banner {
+  width: 60%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.square-button {
+  padding: 10px 20px;
+  margin-left: 0.5%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #703e3b;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.square-button:hover {
+  background-color: #b18563;
+}
+
+
+@media (max-width: 768px) {
   .banner {
-    width: 100%; 
+    width: 80%; 
   }
 
-  .footer-buttons {
-    margin-top: 20px;
-    text-align: right; 
-  }
-  
   .square-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #703e3b;
-    color: #fff;
-    border: none;
-    margin-right: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 8px 16px; 
+    margin-left: 0; 
   }
-  
-  .square-button:hover {
-    background-color: #777;
-  }
-  
-  .square-button:focus {
-    outline: none;
-  }
+}

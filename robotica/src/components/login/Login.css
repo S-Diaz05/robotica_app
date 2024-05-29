@@ -1,20 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
-  .inputText{
-      margin-bottom: 100px;
-  }  
-  .boton {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    background-color: #703e3b;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: 5%;
-  }
-  
-  
+
+.inputText {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.boton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #703e3b;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.boton:hover {
+  background-color: #b18563;
+}

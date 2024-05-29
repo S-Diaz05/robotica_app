@@ -1,10 +1,23 @@
-.footer{
-  background-color: #703e3b;
-  height: 10%;
-  width: 100%;
-  color: #FFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
+.content {
+    flex: 1;
+    padding-bottom: 60px; /* Añade un padding al final del contenido para evitar que el footer se solape */
+  }
+  
+  .footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: #703e3b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+  
+
+  
+  

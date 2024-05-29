@@ -5,7 +5,7 @@ import Footer from '../footer/Footer';
 import '../../index.css';
 import './Login.css';
 
-export default function About() {
+export default function Login() {
   const navigate = useNavigate();
 
   const handleLogin = (email, password) => {
